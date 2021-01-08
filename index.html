@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!-- <script src="script.js"></script> -->
+    <title>Web Page | Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Hi, I am Sohail</h1>
+        <h2>A Designer, Full Stack Developer, AI/ML enthusiast & </h2>
+        <h3>3rd Year Engineering Undergrad Student at University Of Pune (SPPU)</h3>
+    </header>
+   <nav>  <!-- <div id="navbar">-->
+        <a href="#">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Contact">Contact</a>        
+    </nav> <!-- </div>-->
+    <main>
+        <section class="resume" id="Projects">
+            <a href="#">RESUME</a>
+        </section>
+        <section class="projects">
+            <div id="project1">
+                <span>BMI APP</span>
+            </div>
+            
+            <div id="project2">
+                <span>JSORT</span>
+            </div>
+            
+            <div id="project3">
+                <span>Rock Paper Scissors</span>
+            </div>
+            <div id="project4">
+                <span>Card Game Black Jack</span>
+            </div>
+        </section>
+        <section class="experience" id="Experience">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsam aliquid numquam fuga modi earum blanditiis, error inventore qui, laboriosam commodi quibusdam molestiae autem tenetur placeat debitis dignissimos porro aspernatur eveniet a cupiditate suscipit non. Nam, repudiandae architecto! Rerum, possimus. Tempora officiis molestiae consequuntur deserunt dolorum laudantium maxime provident optio atque consequatur ex delectus nulla reprehenderit, facere quis quibusdam odit sint. Doloribus optio ea totam vel porro ratione accusantium temporibus eveniet asperiores hic ab sit, ut explicabo aliquid labore nam dolorum earum, expedita commodi beatae? Unde quas deserunt ullam odit enim voluptatem officiis maiores ipsa animi libero rem dolorem autem, optio commodi obcaecati, consectetur dolor nostrum! Ducimus porro omnis quas facere, ab dolore repudiandae deleniti quasi vel maxime? Adipisci, deleniti velit, optio eum cupiditate architecto veniam nihil deserunt aliquid quia, necessitatibus iusto recusandae! Dolorum modi reprehenderit dolores aliquid voluptatum est, harum rerum earum possimus quisquam illum perspiciatis repellat excepturi fuga!
+        </section>
+        <section class="contact" id="Contact">
+            <h2>contact me at &nbsp;</h2>
+            <a href="#">Codechef</a>
+            <a href="#">HackerRank</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Github</a>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Made With &#10084;&#65039; By Sohail Ahmad &copy; 2020</h3>
+    </footer>
+    
+<script>
+    window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

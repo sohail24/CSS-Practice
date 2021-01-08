@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 100px;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+/* #navbar{ */
+    background-color: rgba(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+/*#navbar*/ nav a {
+    color: cornsilk;
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.resume{
+    padding:100px;
+    background-color: gainsboro;
+    text-align: center;
+}
+.resume a,.contact a{
+    text-decoration: none;
+    background-color: indigo;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.projects, .contact {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience {
+    padding: 100px;
+    background-color: gainsboro;
+}
+
+.projects div {
+    background-color: lightsteelblue;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: gainsboro;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* sticky navbar  */
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+   */
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  /* .sticky + .main {
+    padding-top: 50px;
+  } */
