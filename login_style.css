@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(to right, rgb(174, 0, 255) , red ); */
+    background: cadetblue;
+    animation-name: backgroundcolor; 
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: white;
+}
+
+@keyframes backgroundcolor {
+    /* 20%{background-image: linear-gradient(to right, red , rgb(255, 208, 0));}
+    40%{background-image: linear-gradient(to right, rgb(255, 208, 0) , rgb(0, 255, 55));}
+    60%{background-image: linear-gradient(to right, rgb(0, 255, 55) , rgb(0, 110, 255))};
+    80%{background-image: linear-gradient(to right, rgb(0, 110, 255) , rgb(174, 0, 255))}; */
+    20%{background-color: rgb(37, 37, 167);}
+    40%{background-color: blueviolet;}
+    60%{background-color: yellowgreen;}
+    80%{background-color:tomato;}
+}
+
+
+.login-container {
+    margin: auto;
+    /* top: 25%; */
+    padding: 10px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+    display: flex;
+    height: 70%;
+    width: 90%;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+}
+
+#login-heading {
+    padding: 25px;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.login-form input,button,a{
+    margin: 15px;
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 600;
+}
+
+.login-form button {
+    width: 70%;
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: white;
+}
