@@ -6,7 +6,7 @@
 
 body{
     /* background-image: linear-gradient(to right, rgb(174, 0, 255) , red ); */
-    background: cadetblue;
+    background: tomato;
     animation-name: backgroundcolor; 
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
@@ -19,10 +19,10 @@ body{
     40%{background-image: linear-gradient(to right, rgb(255, 208, 0) , rgb(0, 255, 55));}
     60%{background-image: linear-gradient(to right, rgb(0, 255, 55) , rgb(0, 110, 255))};
     80%{background-image: linear-gradient(to right, rgb(0, 110, 255) , rgb(174, 0, 255))}; */
-    20%{background-color: rgb(37, 37, 167);}
-    40%{background-color: blueviolet;}
-    60%{background-color: yellowgreen;}
-    80%{background-color:tomato;}
+    20%{background-color: indigo;}
+    40%{background-color: rgb(37, 37, 167);}
+    60%{background-color: rgb(122, 158, 51);}
+    80%{background-color: rgb(180, 139, 61);}
 }
 
 
